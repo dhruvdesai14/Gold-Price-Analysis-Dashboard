@@ -2,17 +2,17 @@
 
 ## Overview
 
-This dashboard, created using Tableau, provides a historical analysis of gold prices from 1971 to 2021. It visualizes key trends, annual returns, and yearly volatility in gold prices, offering insights into its performance as an investment over the past five decades. The dashboard is designed to provide stakeholders with a quick and informative overview of gold price dynamics.
+This dashboard is built on Tableau and gives an overview of gold price history across 50 years from 1971-2021. This infographic visualizes notable trends, yearly returns, and annual volatility in gold prices to provide a glimpse of its investment performance over the last five decades. The dashboard aims to offer its stakeholders a short and informative look into the dynamics of gold prices.
 
 ---
 
 ## Key Visualizations
 
-The dashboard is divided into four distinct sections, each providing a unique perspective on gold price data:
+The dashboard consists of four sections, presenting different aspects of gold price information:
 
 *   **Gold Price Trends (Yearly Closing Price):** A line chart illustrating the yearly closing price of gold, showing overall price trends over time.
-*   **Gold Price Yearly % Change:** A bar chart displaying the annual percentage change in gold prices, highlighting periods of significant growth and decline.
-*   **5-Year & 10-Year Returns:** A line chart comparing the average 5-year and 10-year returns on gold, demonstrating longer-term investment performance.
+*   **Gold Price Yearly % Change:** A bar chart expresing the annual percentage change in gold prices, highlights periods of significant growth and decline.
+*   **5-Year & 10-Year Returns:** A line chart comparing the average 5-year and 10-year returns, demonstrating longer-term investment performance.
 *   **Yearly Highs & Lows:** An area chart highlighting the yearly high and low prices of gold, illustrating annual price volatility.
 
 The dashboard also prominently displays the following key metrics:
@@ -26,9 +26,9 @@ The dashboard also prominently displays the following key metrics:
 
 ## How to Use
 
-1.  **Download the Tableau Workbook:** The workbook file (`Gold_Price_Analysis_Dashboard.twb` or `.twbx`) can be obtained from this repository.
-2.  **Open in Tableau:** Open the file in [Tableau Desktop](https://www.tableau.com/products/desktop) (version [Specify Tableau version here - e.g., 2020.4] or later).
-3.  **Interact with the Dashboard:** Use the tabs at the bottom of the workbook to navigate between different visualizations. Hover over data points to see specific details.
+1.  **Download the Tableau Workbook:** The Tableau workbook file (`Gold-Price-Analysis.twb` or `.twbx`) can be found from this repository.
+2.  **Open in Tableau:** Use [Tableau Desktop](https://www.tableau.com/products/desktop) program to open the document file. 
+3.  **Interact with the Dashboard:** The dashboard interface can be explored by switching between different visualizations located at the dashboard's bottom section. When mouse pointers hover over data points in the charts they will display specific details.
 
 ---
 
@@ -36,47 +36,47 @@ The dashboard also prominently displays the following key metrics:
 
 ![Dashboard Preview](images/gold_dashboard_preview.png)
 
-*Note: Viewing the complete interactive elements requires opening the workbook through Tableau Desktop.* Consider taking a screenshot of your dashboard and saving it in an `/images` folder in your repo.
+Note: Viewing the complete interactive element requires opening the workbook through Tableau Desktop.
 
 ---
 
 ## Data Source
 
-The data used in this dashboard was obtained from [Specify your data source here - e.g., a financial data provider, a government agency, etc.]. The dataset includes historical gold prices from 1971 to 2021.
+The data used in this dashboard was obtained from Yahoo Finance. The dataset includes historical gold prices from 1971 to 2021.
 
-*The `data/` directory (if included) contains the raw data files, while some data may be embedded within the .twb or .twbx file.*
+*The `data/` directory contains the raw data file.*
 
 ---
 
 ## Key Insights
 
-*   **Long-Term Growth:** The line chart of yearly closing prices clearly demonstrates the overall upward trend of gold prices over the past five decades.
-*   **Volatility:** The annual percentage change chart highlights the years with the most significant price fluctuations, indicating periods of higher risk and potential reward.
-*   **Investment Performance:** Comparing the 5-year and 10-year returns provides a longer-term perspective on gold as an investment.
-*   **Annual Price Range:** The yearly highs and lows chart visualizes the annual price range, illustrating the potential for short-term trading opportunities.
-*   **Latest Metrics:** The dashboard provides real-time indicators of closing price, annual return, five year return, and ten year return
+*   **Long-Term Growth:** The line chart of yearly closing prices demonstrates the overall upward trend of gold prices over the past five decades.
+*   **Volatility:** The annual percentage change chart demonstrates which years have the highest price fluctuations that present both elevated risks together with possible lucrative outcomes.
+*   **Investment Performance:** A comprehensive view regarding gold as an investment emerges through analyzing the returns accumulated during both the 5-year and 10-year periods.
+*   **Annual Price Range:** Users can find short-term trading opportunities through the yearly highs and lows chart which displays the annual price range.
+*   **Latest Metrics:** The dashboard provides real-time indicators of closing price, annual return, five-year return, and ten-year return
 
 ---
 
 ## Repository Structure
 
-*   **`data/` (Optional):** Contains the raw financial data used in the dashboard. Include this folder if you're including raw data files in the repo.
-*   **`docs/` (Optional):** Folder for additional documentation or reports related to the project.
-*   **`images/` (Optional):** Stores screenshots of the dashboard for quick previews.
-*   **`Gold_Price_Analysis_Dashboard.twbx`:** The main Tableau workbook file.  Use `.twb` if you are not including the data with the workbook.
+*   **`data/`:** Contains the raw financial data used in the dashboard. Include this folder if you're including raw data files in the repo.
+*   **`docs/`:** Folder for additional documentation or reports related to the project.
+*   **`images/`:** Stores screenshots of the dashboard for quick previews.
+*   **`Gold-Price-Analysis.twbx`:** The main Tableau workbook file.
 *   **`README.md`:** Contains project information and operational guidelines.
-*   **`LICENSE.md` (Optional):** License details for the project.
+*   **`LICENSE.md`:** License details for the project.
 
 ---
 
 ## Requirements
 
-*   **Tableau Desktop:** Version [Specify Tableau version here - e.g., 2020.4] or later.
-*   **Data Files:** Ensure the files in `data/` (if applicable) are linked correctly in Tableau.
+*   **Tableau Desktop:** Version 2021.1 or later.
+*   **Data Files:** Ensure the file in `data/` is linked correctly in Tableau.
 
 ---
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md) (Optional). You are free to use, modify, and share this work, provided you give appropriate credit.
+This project is licensed under the [MIT License](LICENSE.md). This work is available for modification and uses alongside the requirement to provide proper acknowledgement.
 
