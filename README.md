@@ -60,7 +60,7 @@ The data used in this dashboard was obtained from Yahoo Finance. The dataset inc
 
 ## Repository Structure
 
-*   **`data/`:** Contains the raw financial data used in the dashboard. Include this folder if you're including raw data files in the repo.
+*   **`data/`:** Contains the raw financial data used in the dashboard.
 *   **`docs/`:** Folder for additional documentation or reports related to the project.
 *   **`images/`:** Stores screenshots of the dashboard for quick previews.
 *   **`Gold-Price-Analysis.twb`:** The main Tableau workbook file.
